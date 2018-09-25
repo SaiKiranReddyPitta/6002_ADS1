@@ -1,20 +1,24 @@
 import java.util.Scanner;
+/**.
+ * Class for solution.
+ */
 class Solution {
-    /**
+    /**.
      * . { function_description }
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         /**.
          * { var_description }
          */
         Scanner sc = new Scanner(System.in);
         int input = Integer.parseInt(sc.nextLine());
-        percolate obj = new percolate(input);
-        while(sc.hasNextLine()){
+        Percolate obj = new Percolate(input);
+        while (sc.hasNextLine()) {
             String[] inputs = sc.nextLine().split(" ");
-            obj.open(Integer.parseInt(inputs[0]) - 1, Integer.parseInt(inputs[1]) - 1);
+            obj.open(Integer.parseInt(inputs[0]) - 1,
+                Integer.parseInt(inputs[1]) - 1);
         }
         System.out.println(obj.ispercolate());
     }
@@ -24,7 +28,7 @@ class Solution {
 /**
  * Class for percolate.
  */
-class percolate {
+class Percolate {
     /**.
      * { var_description }
      */
@@ -42,7 +46,7 @@ class percolate {
      *
      * @param      size1  The size
      */
-    percolate(final int size1) {
+    Percolate(final int size1) {
         /**.
          * { item_description }
          */
