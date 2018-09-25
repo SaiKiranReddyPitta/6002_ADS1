@@ -2,12 +2,17 @@ import java.util.Scanner;
 /**.
  * Class for solution.
  */
-class Solution {
-    /**.
-     * . { function_description }
+final class Solution {
+    /**
+     * . . { function_description }
      *
      * @param      args  The arguments
      */
+    private Solution() {
+        /**.
+         * { item_description }
+         */
+    }
     public static void main(final String[] args) {
         /**.
          * { var_description }
