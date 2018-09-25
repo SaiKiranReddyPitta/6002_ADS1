@@ -28,15 +28,15 @@ class percolate {
     /**.
      * { var_description }
      */
-    boolean[][] grid;
+    private boolean[][] grid;
     /**.
      * { var_description }
      */
-    WeightedQuickUnionUF obj;
+    private WeightedQuickUnionUF obj;
     /**.
      * { var_description }
      */
-    int size;
+    private int size;
     /**.
      * Constructs the object.
      *
@@ -62,19 +62,19 @@ class percolate {
         }
         grid[row][column] = true;
         if (row == 0) {
-            obj.union(convert(row,column), size * size);
+            obj.union(convert(row, column), size * size);
         }
         if (row == size - 1) {
             obj.union(convert(row, column), size * size + 1);
         }
         if (row < size - 1 && grid[row + 1][column]) { //bottom element
-            obj.union(convert(row,column), convert(row + 1, column));
+            obj.union(convert(row, column), convert(row + 1, column));
         }
         if (row > 0 && grid[row - 1][column]) { //top element
-            obj.union(convert(row,column), convert(row - 1, column));
+            obj.union(convert(row, column), convert(row - 1, column));
         }
         if (column > 0 && grid[row][column - 1]) { //left element
-            obj.union(convert(row,column), convert(row, column - 1));
+            obj.union(convert(row, column), convert(row, column - 1));
         }
         if (column < size - 1 && grid[row][column + 1]) { //right element
             obj.union(convert(row, column), convert(row, column + 1));
