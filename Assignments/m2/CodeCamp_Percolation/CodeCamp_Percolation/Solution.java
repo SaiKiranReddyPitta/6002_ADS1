@@ -25,47 +25,64 @@ class Solution {
  * Class for percolate.
  */
 class percolate {
+    /**.
+     * { var_description }
+     */
     boolean[][] grid;
+    /**.
+     * { var_description }
+     */
     WeightedQuickUnionUF obj;
+    /**.
+     * { var_description }
+     */
     int size;
-    percolate(int size){
-        this.size = size;
+    /**.
+     * Constructs the object.
+     *
+     * @param      size1  The size
+     */
+    percolate(final int size1) {
+        /**.
+         * { item_description }
+         */
+        this.size = size1;
         grid = new boolean[size][size];
         obj = new WeightedQuickUnionUF(size * size + 2);
     }
-    /**
+    /**.
      * { function_description }
      *
      * @param      row     The row
      * @param      column  The column
      */
     public void open(final int row, final int column) {
-        if(grid[row][column]) {
+        if (grid[row][column]) {
             return;
         }
         grid[row][column] = true;
-        if(row == 0){
+        if (row == 0) {
             obj.union(convert(row,column), size * size);
         }
-        if(row == size - 1){
+        if (row == size - 1) {
             obj.union(convert(row, column), size * size + 1);
         }
-        if(row < size - 1 && grid[row + 1][column]){ //bottom element
+        if (row < size - 1 && grid[row + 1][column]) { //bottom element
             obj.union(convert(row,column), convert(row + 1, column));
         }
-        if(row > 0 && grid[row - 1][column]){ //top element
+        if (row > 0 && grid[row - 1][column]) { //top element
             obj.union(convert(row,column), convert(row - 1, column));
         }
-        if(column > 0 && grid[row][column - 1]){ //left element
+        if (column > 0 && grid[row][column - 1]) { //left element
             obj.union(convert(row,column), convert(row, column - 1));
         }
-        if(column < size - 1 && grid[row][column + 1]){ //right element
-            obj.union(convert(row,column), convert(row, column + 1));
+        if (column < size - 1 && grid[row][column + 1]) { //right element
+            obj.union(convert(row, column), convert(row, column + 1));
         }
 
 
     }
-    /**
+    /**.
      * { function_description }
      *
      * @return     { description_of_the_return_value }
