@@ -6,7 +6,6 @@ final class Solution {
     /**
      * . . { function_description }
      *
-     * @param      args  The arguments
      */
     private Solution() {
         /**.
@@ -14,6 +13,9 @@ final class Solution {
          */
     }
     public static void main(final String[] args) {
+        /**.
+         * { item_description }
+         */
         /**.
          * { var_description }
          */
