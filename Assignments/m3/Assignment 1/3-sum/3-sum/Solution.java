@@ -1,11 +1,23 @@
 import java.util.Scanner;
 import java.util.Arrays;
-
 class Solution {
-
-    private Solution() { 
+    /**.
+     * Constructs the object.
+     */
+    private Solution() {
+        /**.
+         * { item_description }
+         */
     }
-    public static void main( String[] args) {
+    /**.
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        /**.
+         * { var_description }
+         */
         Scanner s = new Scanner(System.in);
         int size = s.nextInt();
         int[] arr = new int[size]; 
@@ -28,9 +40,18 @@ class Solution {
         }
         System.out.println(count);
     }
-
-    public static boolean search(int l, int h,
-        int[] b, int s) {
+    /**.
+     * Searches for the first match.
+     *
+     * @param      l     { parameter_description }
+     * @param      h     { parameter_description }
+     * @param      b     { parameter_description }
+     * @param      s     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public static boolean search(final int l, final int h,
+        final int[] b, final int s) {
                     int middle = 0;
                     int count = 0;
                     int low = l;
@@ -47,6 +68,6 @@ class Solution {
                         low = middle + 1;
                     }
                 }
-                return false ; 
+                return false;
             }
         }
