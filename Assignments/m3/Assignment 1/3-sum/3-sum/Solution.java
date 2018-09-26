@@ -1,6 +1,9 @@
 import java.util.Scanner;
 import java.util.Arrays;
-class Solution {
+/**.
+ * Class for solution.
+ */
+final class Solution {
     /**.
      * Constructs the object.
      */
@@ -20,7 +23,7 @@ class Solution {
          */
         Scanner s = new Scanner(System.in);
         int size = s.nextInt();
-        int[] arr = new int[size]; 
+        int[] arr = new int[size];
         for (int i = 0; i < size; i++) {
             arr[i] = s.nextInt();
         }
