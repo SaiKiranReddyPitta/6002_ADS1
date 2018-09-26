@@ -1,8 +1,25 @@
-import java.util.*;
+import java.util.Scanner;
+/**.
+ * Class for solution.
+ */
 class Solution {
-    private Solution() { 
+    /**.
+     * Constructs the object.
+     */
+    private Solution() {
+    /**.
+     * { item_description }
+     */
     }
+    /**
+     * . { function_description }
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
+        /**.
+         * { var_description }
+         */
     Scanner s = new Scanner(System.in);
     String s1 = s.nextLine();
     String s2 = s.nextLine();
@@ -18,6 +35,9 @@ class Solution {
     }
 }
     if (num2 > 0) {
+        /**.
+         * { var_description }
+         */
     String[] tokens = s.nextLine().split(",");
     for (int j = 0; j < tokens.length; j++) {
         b[j] = Integer.parseInt(tokens[j]);
@@ -28,24 +48,24 @@ class Solution {
     int j = 0;
     int k = 0;
     while (i < num1 && j < num2) {
-        if (a[i] < b[j]){
+        if (a[i] < b[j]) {
             c[k] = a[i];
             i++;
             k++;
-        }else{
+        } else {
             c[k] = b[j];
             k++;
             j++;
         }
     }
 
-    while (j < num2){
+    while (j < num2) {
         c[k] = b[j];
         k++;
         j++;
     }
 
-    while (i < num1){
+    while (i < num1) {
         c[k] = a[i];
         k++;
         i++;
@@ -53,7 +73,7 @@ class Solution {
 
     //System.out.println(total);
     //System.out.println(Arrays.toString(token));
-    for (int l = 0; l < c.length - 1; l++) { 
+    for (int l = 0; l < c.length - 1; l++) {
         System.out.print(c[l] + ",");
     }
      System.out.print(c[c.length - 1]);
