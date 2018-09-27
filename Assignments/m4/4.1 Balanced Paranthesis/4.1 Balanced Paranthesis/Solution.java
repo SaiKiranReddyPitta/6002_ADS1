@@ -77,11 +77,6 @@ class LinkedListStackOfStrings {
  * . Class for solution.
  */
 public class Solution {
-    /**
-     * . { function_description }
-     *
-     * @param      args  The arguments
-     */
     Solution() {
     /**.
      * { item_description }
@@ -90,9 +85,6 @@ public class Solution {
     public static void main(final String[] args) {
         /**.
          * { item_description }
-         */
-        /**.
-         * { var_description }
          */
         Scanner sc = new Scanner(System.in);
         int size = Integer.parseInt(sc.nextLine());
