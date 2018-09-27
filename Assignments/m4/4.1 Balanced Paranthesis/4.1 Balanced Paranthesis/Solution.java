@@ -77,11 +77,16 @@ class LinkedListStackOfStrings {
  * . Class for solution.
  */
 public class Solution {
-    /**.
-     * { function_description }
+    /**
+     * . { function_description }
      *
      * @param      args  The arguments
      */
+    Solution() {
+    /**.
+     * { item_description }
+     */
+    }
     public static void main(final String[] args) {
         /**.
          * { item_description }
