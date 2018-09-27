@@ -18,8 +18,14 @@ class LinkedListStackOfStrings {
         /**.
          * { var_description }
          */
-        char item;
-        Node nextAddress;
+        private char item;
+        /**.
+         * { var_description }
+         */
+        private Node nextAddress;
+        /**.
+         * { item_description }
+         */
     }
 
     /**.
@@ -68,10 +74,18 @@ class LinkedListStackOfStrings {
 }
 
 /**.
- * Class for solution.
+ * . Class for solution.
  */
 public class Solution {
+    /**.
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
+        /**.
+         * { item_description }
+         */
         /**.
          * { var_description }
          */
@@ -79,7 +93,7 @@ public class Solution {
         int size = Integer.parseInt(sc.nextLine());
         for (int i = 0; i < size; i++) {
             String line = sc.next();
-            if(checkingTheParanthesis(line)){
+            if (checkingTheParanthesis(line)) {
                 System.out.println("YES");
             } else {
                 System.out.println("NO");
@@ -104,8 +118,7 @@ public class Solution {
             char ch = s.charAt(i);
             if (ch == '{' || ch == '[' || ch == '(') {
                 obj.push(ch);
-            }
-            else {
+            } else {
                 if (obj.isEmpty()) {
                     return false;
                 }
