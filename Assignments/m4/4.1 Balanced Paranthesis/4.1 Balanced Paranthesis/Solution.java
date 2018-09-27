@@ -76,11 +76,11 @@ class LinkedListStackOfStrings {
 /**.
  * . . Class for solution.
  */
-public class Solution {
+final class Solution {
     /**.
      * Constructs the object.
      */
-    Solution() {
+    private Solution() {
         /**.
          * { item_description }
          */
