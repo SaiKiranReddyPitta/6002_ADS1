@@ -3,24 +3,26 @@
  */
 import java.util.Scanner;
 /**.
- * { item_description }
- */
-import java.util.Arrays;
-/**.
  * Class for solution.
  */
-public class Solution {
+final class Solution {
+    /**.
+     * { function_description }
+     */
+    private Solution() {
+        /**.
+         * { item_description }
+         */
+    }
     /**.
      * { function_description }
      *
      * @param      args  The arguments
      */
-    Solution() {
-        /**.
-         * { item_description }
-         */
-    }
     public static void main(final String[] args) {
+        /**.
+         * { var_description }
+         */
         Scanner scan = new Scanner(System.in);
         int num = scan.nextInt();
         scan.nextLine();
