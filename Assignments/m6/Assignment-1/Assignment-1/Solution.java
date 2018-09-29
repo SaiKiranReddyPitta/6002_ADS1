@@ -1,7 +1,14 @@
 import java.util.Scanner;
 class AddLargeNumbers {
     
-    public static LinkedList numberToDigits(String number) {
+    /**
+     * { function_description }
+     *
+     * @param      number  The number
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public static LinkedList numberToDigits(final String number) {
         LinkedList num = new LinkedList();
         String[] numbers = number.split("");
         for (int i = 0; i < numbers.length; i++) {
@@ -10,7 +17,14 @@ class AddLargeNumbers {
         return num;
     }
 
-    public static String digitsToNumber(LinkedList list) {
+    /**
+     * { function_description }
+     *
+     * @param      list  The list
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public static String digitsToNumber(final LinkedList list) {
         String num = "";
         while (!list.isEmpty()) {
             num += list.pop();
@@ -18,7 +32,15 @@ class AddLargeNumbers {
         return num;
     }
 
-    public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
+    /**
+     * Adds large numbers.
+     *
+     * @param      list1  The list 1
+     * @param      list2  The list 2
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public static LinkedList addLargeNumbers(final LinkedList list1, final LinkedList list2) {
         Stack stack1 = new Stack();
         Stack stack2 = new Stack();
 
@@ -45,15 +67,15 @@ class AddLargeNumbers {
         int digitSum = 0;
         while (!stack1.isEmpty()) {
             digitSum = stack1.pop() + stack2.pop() + carrier;
-            carrier = digitSum / 10;
+            carrier = digitSum / (2+2+2+2+2);
             if (stack1.size == 0) {
-                sumofnums += (digitSum % 10) + "";
+                sumofnums += (digitSum % (2+2+2+2+2)) + "";
             }
-            if (digitSum / 10 != 0) {
-                sumofnums += (digitSum / 10) + "";
+            if (digitSum / (2+2+2+2+2) != 0) {
+                sumofnums += (digitSum / (2+2+2+2+2)) + "";
             }
             else {
-                sumofnums += (digitSum % 10) + "";
+                sumofnums += (digitSum % (2+2+2+2+2)) + "";
             }
         }
 
@@ -67,6 +89,9 @@ class AddLargeNumbers {
     }
 }
 
+/**
+ * Class for solution.
+ */
 public class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
