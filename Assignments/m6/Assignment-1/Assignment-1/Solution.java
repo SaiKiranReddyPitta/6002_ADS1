@@ -49,6 +49,9 @@ class AddLargeNumbers {
             if (stack1.size == 0) {
                 sumofnums += (digitSum % 10) + "";
             }
+            if (digitSum / 10 != 0) {
+                sumofnums += (digitSum / 10) + "";
+            }
             else {
                 sumofnums += (digitSum % 10) + "";
             }
