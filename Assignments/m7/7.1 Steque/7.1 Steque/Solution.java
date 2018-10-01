@@ -13,7 +13,7 @@ final class Solution {
      * An object for LinkedList is created.
      * Then the items are pushed into the stack.
      * The required operations are made as per output.
-     * We use switch case in the main method 
+     * We use switch case in the main method.
      *  which helps in determining the input and the actions.
      * For the push we call PushAtStart with the parameter item.
      * For enqueue we call PushAtEnd with the parameter item.
