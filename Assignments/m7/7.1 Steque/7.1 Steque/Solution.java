@@ -1,7 +1,9 @@
-/**.
- * Importing Scanner
+/** . Importing Scanner
  */
 import java.util.Scanner;
+/**.
+ * Solution class
+ */
 final class Solution {
     /**.
      * Solution class
