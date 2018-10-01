@@ -1,4 +1,7 @@
 class LinkedList {
+    /**.
+     * Linkedlist Class
+     */
 
     private int length = 0;
 
