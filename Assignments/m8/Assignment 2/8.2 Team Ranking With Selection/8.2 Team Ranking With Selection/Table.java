@@ -1,17 +1,17 @@
-/**
+/**.
  * Class for table.
  */
 public class Table {
-    /**
+    /**.
      * Constructs the object.
      */
     public Table() {
 
     }
-    /**
-     * Selection Sort function for array.
-     * complexity for the big O is N^2.
-     * complexity for omega is N^2.
+    /**.
+     * It's a Selection Sort function for an array.
+     * The complexity for the big Oh is N^2.
+     * The complexity for omega is N^2.
      * @param      array  The array
      * @param      size   The size
      */
@@ -26,8 +26,8 @@ public class Table {
             }
         }
     }
-    /**
-     * Finds which value is lower.
+    /**.
+     *It Finds the lower value.
      *
      * @param      arr   The arr
      * @param      ind1  The ind 1
@@ -38,10 +38,10 @@ public class Table {
     public boolean less(Comparable[] arr, int ind1, int ind2) {
         return arr[ind1].compareTo(arr[ind2]) < 0;
     }
-    /**
-     * Swaps the values in the array.
+    /**.
+     *It Swaps the values in the array.
      *
-     * @param      a     Team array
+     * @param      a     { parameter_description }
      * @param      ind1  The ind 1
      * @param      ind2  The ind 2
      */
@@ -50,13 +50,13 @@ public class Table {
         a[ind1] = a[ind2];
         a[ind2] = temp;
     }
-    /**
-     * Finds the Leaderboard and returns leaderboard string.
+    /**.
+     *It finds the Leaderboard and returns leaderboard string.
      *
      * @param      array  The array
      * @param      size   The size
      *
-     * @return     String with team names.
+     * @return     { description_of_the_return_value }
      */
     public String leaderboard(Comparable[] array, int size) {
         Sort(array, size);
