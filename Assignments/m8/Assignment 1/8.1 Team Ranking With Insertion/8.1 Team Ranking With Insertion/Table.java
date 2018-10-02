@@ -1,17 +1,17 @@
 /**
- * Class for table.
+ * Class for Table.
  */
 public class Table {
     /**
-     * default constructor.
+     *It's a default constructor.
      */
     public Table() {
 
     }
     /**
-     * Insertion Sort function for array.
-     * complexity is N^2 for big O.
-     * for Theta it is N^2.
+     *It's a insertion Sort function for an array.
+     *Here, the complexity is N^2 for big Oh.
+     *Also, for Theta it is N^2.
      * @param      array  The array
      * @param      size   The size
      */
@@ -26,7 +26,7 @@ public class Table {
         }
     }
     /**
-     * Finds which value is lower.
+     *Helps to find lower value.
      *
      * @param      arr   The arr
      * @param      ind1  The ind 1
@@ -38,7 +38,7 @@ public class Table {
         return arr[ind1].compareTo(arr[ind2]) > 0;
     }
     /**
-     * Swaps the values in the array.
+     *It's Swaps the values in the array.
      *
      * @param      a     Team array
      * @param      ind1  The ind 1
@@ -50,7 +50,7 @@ public class Table {
         a[ind2] = temp;
     }
     /**
-     * Finds the Leaderboard and returns leaderboard string.
+     *It finds the Leaderboard and returns leaderboard string.
      *
      * @param      array  The array
      * @param      size   The size
