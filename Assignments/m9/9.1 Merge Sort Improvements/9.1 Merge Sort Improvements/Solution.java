@@ -4,11 +4,16 @@ import java.util.Scanner;
  */
  final class Solution {
     /**
-     *It's a default constructor.
+     * It's a default constructor.
      */
     private Solution() {
 
     }
+    /**
+     * Main Method
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
     /**
      *The main method.
