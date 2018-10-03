@@ -1,21 +1,21 @@
 import java.util.Scanner;
-/**
+/**.
  *This is a class Solution.
  */
  final class Solution {
-    /**
+    /**.
      * It's a default constructor.
      */
     private Solution() {
 
     }
-    /**
+    /**.
      * Main Method
      *
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-    /**
+    /**.
      *The main method.
      * Here, the input string is passed.
      * Now, the input is passed to the Mergesort method
