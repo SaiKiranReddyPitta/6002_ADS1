@@ -1,0 +1,13 @@
+Starting audit...
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m11\Assignment 1\11.1 Cutoff Quicksort to Insertion Sort\11.1 Cutoff Quicksort to Insertion Sort\SortMethod.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m11\Assignment 1\11.1 Cutoff Quicksort to Insertion Sort\11.1 Cutoff Quicksort to Insertion Sort\SortMethod.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m11\Assignment 1\11.1 Cutoff Quicksort to Insertion Sort\11.1 Cutoff Quicksort to Insertion Sort\SortMethod.java:2:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m11\Assignment 1\11.1 Cutoff Quicksort to Insertion Sort\11.1 Cutoff Quicksort to Insertion Sort\SortMethod.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m11\Assignment 1\11.1 Cutoff Quicksort to Insertion Sort\11.1 Cutoff Quicksort to Insertion Sort\SortMethod.java:15:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m11\Assignment 1\11.1 Cutoff Quicksort to Insertion Sort\11.1 Cutoff Quicksort to Insertion Sort\SortMethod.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m11\Assignment 1\11.1 Cutoff Quicksort to Insertion Sort\11.1 Cutoff Quicksort to Insertion Sort\SortMethod.java:30:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m11\Assignment 1\11.1 Cutoff Quicksort to Insertion Sort\11.1 Cutoff Quicksort to Insertion Sort\SortMethod.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m11\Assignment 1\11.1 Cutoff Quicksort to Insertion Sort\11.1 Cutoff Quicksort to Insertion Sort\SortMethod.java:47:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m11\Assignment 1\11.1 Cutoff Quicksort to Insertion Sort\11.1 Cutoff Quicksort to Insertion Sort\SortMethod.java:51:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 10 errors.
