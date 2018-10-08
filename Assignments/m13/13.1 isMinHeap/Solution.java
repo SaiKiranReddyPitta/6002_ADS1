@@ -1,9 +1,19 @@
 import java.util.Scanner;
+/**.
+ *It's the class Solution.
+ */
 final class Solution {
+    /**.
+     * Constructs the object.
+     */
     private Solution() {
 
     }
-
+    /**.
+     * main method for program.
+     * complexity O(n) as we are taking inuput n times.
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         String type = scan.nextLine();
@@ -86,14 +96,31 @@ final class Solution {
         }
     }
 }
-
+/**.
+ * Generic Class for minimum heap.
+ *
+ * @param      <E>   generic type
+ */
 class MinHeap<E> {
+    /**.
+     * declaring int len variable.
+     */
     private int len;
+    /**
+     * declaring the generic array.
+     */
     private E[] pq;
+    /**
+     * Constructs the object.
+     */
     MinHeap() {
 
     }
-
+    /**
+     * Constructs the object.
+     * complexity O(n) as we are copying the array.
+     * @param      array  The generic type array
+     */
     MinHeap(final E[] array) {
         len = array.length;
         pq = (E[]) new Object[len + 1];
@@ -102,7 +129,14 @@ class MinHeap<E> {
         }
         System.out.println(isMininimumHeap(1));
     }
-
+    /**
+     * Determines if the array is min. hepa or not.
+     * complexity O(logn) as we are iterating the parent and child and from
+     * that child nodes.
+     * @param      index  The index of the array.
+     *
+     * @return     True if mininimum heap, False otherwise.
+     */
     public boolean isMininimumHeap(final int index) {
         if (index > len) {
             return true;
@@ -117,7 +151,14 @@ class MinHeap<E> {
         }
         return (isMininimumHeap(lchild) && isMininimumHeap(rchild));
     }
-
+    /**
+     * checking which element is large.
+     * complexity O(1) as we are comparing the two elements.
+     * @param      i     index.
+     * @param      j     index.
+     *
+     * @return     true if large else false.
+     */
     public boolean large(final int i, final int j) {
         return ((Comparable<E>) pq[i]).compareTo(pq[j]) > 0;
     }

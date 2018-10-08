@@ -1,14 +1,4 @@
 Starting audit...
 [ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m13\13.1 isMinHeap\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m13\13.1 isMinHeap\Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m13\13.1 isMinHeap\Solution.java:3:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m13\13.1 isMinHeap\Solution.java:7:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m13\13.1 isMinHeap\Solution.java:90: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m13\13.1 isMinHeap\Solution.java:91:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m13\13.1 isMinHeap\Solution.java:92:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m13\13.1 isMinHeap\Solution.java:93:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m13\13.1 isMinHeap\Solution.java:97:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m13\13.1 isMinHeap\Solution.java:106:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m13\13.1 isMinHeap\Solution.java:121:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 1 errors.
