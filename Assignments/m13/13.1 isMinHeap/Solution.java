@@ -10,7 +10,7 @@ final class Solution {
         switch (type) {
         case "String":
             int number = scan.nextInt();
-            for (int i = 0; i <= number; i++) {
+            for (int i = 0; i < number; i++) {
                 String[] tokens = scan.next().split(",");
                 try {
                     if (tokens[0].length() == 0) {
@@ -25,7 +25,7 @@ final class Solution {
             break;
         case "Float":
             number = scan.nextInt();
-            for (int i = 0; i <= number; i++) {
+            for (int i = 0; i < number; i++) {
                 try {
                     String line = scan.next();
                     if (line.length() == 0) {
@@ -45,7 +45,7 @@ final class Solution {
             break;
         case "Integer":
             number = scan.nextInt();
-            for (int i = 0; i <= number; i++) {
+            for (int i = 0; i < number; i++) {
                 String[] tokens = scan.next().split(",");
                 try {
                     if (tokens[0].length() == 0) {
@@ -64,7 +64,7 @@ final class Solution {
             break;
         case "Double":
             number = scan.nextInt();
-            for (int i = 0; i <= number; i++) {
+            for (int i = 0; i < number; i++) {
                 String[] tokens = scan.next().split(",");
                 try {
                     if (tokens[0].length() == 0) {
