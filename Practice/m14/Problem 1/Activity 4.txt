@@ -1,0 +1,2 @@
+Question: Which priority-queue implementation do you think would be most effective: heap, unordered array, ordered array?
+Answer:  Unordered arrays, because we shouldn't have to check the order of keys everytime when we are inserting the arrays.
