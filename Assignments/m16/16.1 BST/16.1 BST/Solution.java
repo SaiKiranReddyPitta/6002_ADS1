@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/**
+/**.
  *This Class is for solution.
  */
 final class Solution {
@@ -13,7 +13,9 @@ final class Solution {
      */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
-        Binarysearchtree<String, Integer> bs = new Binarysearchtree<String, Integer>();
+        Binarysearchtree<String, Integer> bs =
+        new Binarysearchtree<String, Integer>();
+
         while (sc.hasNextLine()) {
             String st = sc.nextLine();
             String[] tokens = st.split(",");
