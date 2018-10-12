@@ -1,0 +1,5 @@
+Starting audit...
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m14\14.2 student reservation system\14.2 student reservation system\Student.java:1:8: Unused import - java.util.Scanner. [UnusedImports]
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m14\14.2 student reservation system\14.2 student reservation system\Student.java:39:14: '{' is not preceded with whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 2 errors.
