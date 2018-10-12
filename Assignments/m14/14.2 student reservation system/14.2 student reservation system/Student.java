@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
 /**
@@ -36,7 +36,7 @@ class Student {
     /**
      default constructor.
      */
-    Student(){
+    Student() {
 
     }
     /**
