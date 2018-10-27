@@ -4,70 +4,78 @@ import java.util.Iterator;
 
 import java.util.NoSuchElementException;
 
+/**
+ * Class for solution.
+ */
 public class Solution {
 
-	public static void main(String[] args) {
+    /**
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
 
-		Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-		int inputsize = Integer.parseInt(sc.nextLine());
+        int inputsize = Integer.parseInt(sc.nextLine());
 
-		SeparateChainingHashST<Integer, Student> student = new SeparateChainingHashST<>();
+        SeparateChainingHashST<Integer, Student> student = new SeparateChainingHashST<>();
 
-		Student s = null;
+        Student s = null;
 
-		while(inputsize > 0) {
+        while(inputsize > 0) {
 
-			String[] line = sc.nextLine().split(",");
+            String[] line = sc.nextLine().split(",");
 
-			s = new Student(line[1], line[2]);
+            s = new Student(line[1], line[2]);
 
-			student.put(Integer.parseInt(line[0]), s);
+            student.put(Integer.parseInt(line[0]), s);
 
-			inputsize--;
+            inputsize--;
 
-		}
+        }
 
-		int testcases = Integer.parseInt(sc.nextLine());
+        int testcases = Integer.parseInt(sc.nextLine());
 
-		while(testcases > 0) {
+        while(testcases > 0) {
 
-			String[] tokens = sc.nextLine().split(" ");
+            String[] tokens = sc.nextLine().split(" ");
 
-			if(tokens[2].equals("1")) {
+            if(tokens[2].equals("1")) {
 
-				int key = Integer.parseInt(tokens[1]);
+                int key = Integer.parseInt(tokens[1]);
 
-				if(student.contains(key)) {
+                if(student.contains(key)) {
 
-					System.out.println(student.get(key).name);
+                    System.out.println(student.get(key).name);
 
-				} else {
+                } else {
 
-					System.out.println("Student doesn't exists...");
+                    System.out.println("Student doesn't exists...");
 
-				}
+                }
 
-				
+                
 
-			} else if(tokens[2].equals("2")) {
+            } else if(tokens[2].equals("2")) {
 
-				int key = Integer.parseInt(tokens[1]);
+                int key = Integer.parseInt(tokens[1]);
 
-				if(student.contains(key)) {
+                if(student.contains(key)) {
 
-					System.out.println(student.get(key).marks);
+                    System.out.println(student.get(key).marks);
 
-				} else {
+                } else {
 
-					System.out.println("Student doesn't exists...");
+                    System.out.println("Student doesn't exists...");
 
-				}
-			}
+                }
+            }
 
-			testcases--;
-		}
-	}
+            testcases--;
+        }
+    }
 }
 
 
