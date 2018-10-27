@@ -60,7 +60,7 @@ public class Solution {
 
 				} else {
 
-					System.out.println("Student doesn't exists..");
+					System.out.println("Student doesn't exists...");
 
 				}
 			}
