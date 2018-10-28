@@ -26,6 +26,7 @@ public final class Solution {
                 break;
                 case "display":
                     if (obj.size() == 0) {
+                    System.out.println("{}");
                 } else {
                     String str = "";
                     for (String str1: obj.keys()) {
