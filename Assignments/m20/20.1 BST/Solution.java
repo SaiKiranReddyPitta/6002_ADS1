@@ -24,7 +24,7 @@ final class Solution {
         Scanner scan = new Scanner(System.in);
 BinarySearchTree<Book, String> bst = new BinarySearchTree<Book, String>();
         while (scan.hasNext()) {
-            String[] tokens = scan.nextLine().split(" ");
+            String[] tokens = scan.nextLine().split(",");
             switch (tokens[0]) {
             case "put":
                 bst.put(new Book(tokens[1], tokens[2], tokens[2 + 1]),
