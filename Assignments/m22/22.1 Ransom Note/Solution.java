@@ -266,7 +266,7 @@ final class Solution {
         int notesize = sc.nextInt();
         sc.nextLine();
         String[] magazine = sc.nextLine().split("");
-        String[] note = sc.nextLine().split("");
+        String[] note = sc.nextLine().split(" ");
         RansomNote r = new RansomNote(magazinesize, notesize, magazine, note);
         r.creatingHashtable();
         r.checking();

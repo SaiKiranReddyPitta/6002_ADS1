@@ -1,36 +1,42 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Yes
 Your Output: 
-Yes
+No
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
 No
 Your Output: 
-Yes
+Exception in thread "main" java.lang.NullPointerException
+	at RansomNote.checking(Solution.java:224)
+	at Solution.main(Solution.java:272)
 ----------------------------------------
-########## Testcase 2: Failed ##########
-Expected Output: 
-No
-Your Output: 
-Yes
-----------------------------------------
-########## Testcase 3: Passed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 No
 Your Output: 
 No
 ----------------------------------------
-########## Testcase 4: Passed ##########
+########## Testcase 3: Failed ##########
+Expected Output: 
+No
+Your Output: 
+Exception in thread "main" java.lang.NullPointerException
+	at RansomNote.checking(Solution.java:224)
+	at Solution.main(Solution.java:272)
+----------------------------------------
+########## Testcase 4: Failed ##########
 Expected Output: 
 Yes
 Your Output: 
-Yes
+No
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
 Yes
 Your Output: 
-No
+Exception in thread "main" java.lang.NullPointerException
+	at RansomNote.checking(Solution.java:224)
+	at Solution.main(Solution.java:272)
 ----------------------------------------
