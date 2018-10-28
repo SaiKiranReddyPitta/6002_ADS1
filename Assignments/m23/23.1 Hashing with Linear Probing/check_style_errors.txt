@@ -1,0 +1,5 @@
+Starting audit...
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m23\23.1 Hashing with Linear Probing\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\Sai Kiran\Desktop\MSIT\ADS1\6002_ADS1\Assignments\m23\23.1 Hashing with Linear Probing\Solution.java:28:42: Must have at least one statement. [EmptyBlock]
+Audit done.
+Checkstyle ends with 2 errors.
