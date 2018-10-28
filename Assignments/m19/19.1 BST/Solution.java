@@ -19,7 +19,7 @@ public final class Solution {
         BinarySearchTree bst = new BinarySearchTree();
         while (sc.hasNext()) {
             String lines = sc.nextLine();
-            String[] method = lines.split(", ");
+            String[] method = lines.split(",");
             switch (method[0]) {
             case"put":
                 bst.put(new Book(method[1], method[2],
