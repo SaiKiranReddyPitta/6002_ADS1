@@ -20,7 +20,7 @@ public final class Solution {
         LinearProbingHashST<String, Integer> obj
          = new LinearProbingHashST<>();
         for (int i = 0; i <= num; i++) {
-            String[] tokens = scan.nextLine().split("");
+            String[] tokens = scan.nextLine().split(" ");
             switch (tokens[0]) {
                 case "put": obj.put(tokens[1], Integer.parseInt(tokens[2]));
                 break;
